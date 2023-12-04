@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=fr, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/per.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Permisos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="" alt=""></span>
+                    <span class="title">Oasis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/index.html">
+                    <span class="icon"><img src="../img/home_553416.png" alt="" width="30"></span>
+                    <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/roles.html">
+                    <span class="icon"><img src="../img/cog_8947770.png" alt="" width="30"></span>
+                    <span class="title">Roles</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/tableUs.html">
+                    <span class="icon"><img src="../img/circle_10110782.png" alt="" width="30"></span>
+                    <span class="title">Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/habitacion.html">
+                    <span class="icon"><img src="../img/bed_2905743.png" alt="" width="30"></span>
+                    <select name="" id="table-size">
+                        <a href="../html/tipohabit.html"><span class="title"><option value="Habitaciones">Tipo Habitación</option></span></a>
+                    <span class="title"><option value="Habitaciones">Tipo Habitación</option></span>
+                </select>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/servicios.html">
+                    <span class="icon"><img src="../img/wine-bottle_763072.png" alt="" width="30"></span>
+                    <span class="title">Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/paquetes.html">
+                    <span class="icon"><img src="../img/gift_2349820.png" alt="" width="30"></span>
+                    <span class="title">Paquetes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/clientes.html">
+                    <span class="icon"><img src="../img/team_476863.png" alt="" width="30"></span>
+                    <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/reserva.html">
+                    <span class="icon"><img src="../img/reminder_7465733.png" alt="" width="30"></span>
+                    <span class="title">Reservas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/hospedaje.html">
+                    <span class="icon"><img src="../img/sleep_3113791.png" alt="" width="30"></span>
+                    <span class="title">Hospedaje</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="../img/logout_4212116.png" alt="" width="30"></span>
+                    <span class="title">Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!----Perfil-->
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <img src="../img/menu_4204600.png" alt="" width="20">
+                </div>
+                <div class="search">
+                    <label>
+                        <ul class="navbar-list">
+                            <li><a href="#">Cerrar sesión</a></li>
+                            <li><a href="#">Mi perfil</a></li>
+                        </ul>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="../img/perfil person.png" width="110">
+                </div>
+            </div>
+
+    <div class="container-per">
+        <header>
+            <div>
+                <h2>Permisos</h2>
+            </div><br>
+            <div class="perRol">
+                <div class="filterPer">
+                    <p>Nombre Rol <input type="search" name="" id="search" placeholder="Cliente"></p>
+                </div><br>
+
+                <div class="innactive">
+                    <div class="desc">
+                        Estado <select name="" id="table-size">
+                            <option value="Activo">Activo</option>
+                            <option value="Inactivo">Inactivo</option>
+                        </select><br><br>
+                    </div>
+                </div>       
+            </div>
+        </header><br>
+
+        <table>
+            <div class="container-2">
+                <div  class="container">
+                    <h2>Permisos a módulos</h2>
+                    <div class="container-botton">
+                        <div class="boton">
+                            Dashboard <input type="checkbox" id="btn-switch">
+                            <label for="btn-switch" class="lbl-switch"></label>
+                        </div>
+
+                        <div class="boton-2">
+                            Roles <input type="checkbox" id="btn-switch-2">
+                            <label for="btn-switch-2" class="lbl-switch-2"></label>
+                        </div>
+
+                        <div class="boton-3">
+                            Usuarios <input type="checkbox" id="btn-switch-3">
+                            <label for="btn-switch-3" class="lbl-switch-3"></label>
+                        </div>
+
+                        <div class="boton-4">
+                            Habitaciones <input type="checkbox" id="btn-switch-4">
+                            <label for="btn-switch-4" class="lbl-switch-4"></label>
+                        </div>
+                    </div>   
+                    
+                    <div class="container-3">
+                        <div class="boton-5">
+                            Servicios <input type="checkbox" id="btn-switch-5">
+                            <label for="btn-switch-5" class="lbl-switch-5"></label>
+                        </div>
+
+                        <div class="boton-6">
+                            Paquetes <input type="checkbox" id="btn-switch-6">
+                            <label for="btn-switch-6" class="lbl-switch-6"></label>
+                        </div>
+
+                        <div class="boton-7">
+                            Clientes <input type="checkbox" id="btn-switch-7">
+                            <label for="btn-switch-7" class="lbl-switch-7"></label>
+                        </div>
+
+                        <div class="boton-8">
+                            Reservas <input type="checkbox" id="btn-switch-8">
+                            <label for="btn-switch-8" class="lbl-switch-8"></label>
+                        </div>
+
+                        <div class="boton-9">
+                            Hospedaje <input type="checkbox" id="btn-switch-9">
+                            <label for="btn-switch-9" class="lbl-switch-9"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <p><p><p><p><p></p></p></p></p></p>
+                    <button class="botn">Guardar</button>
+                    <button class="botn">Cancelar</button>
+                </div>
+            </div>
+        </table>
+    </div>
+
+    <script src="../Js/script.js"></script>
+    <script src="../Js/menu.js"></script>
+</body>
+</html>

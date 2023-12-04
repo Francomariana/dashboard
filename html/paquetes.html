@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Paquetes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="" alt=""></span>
+                    <span class="title">Oasis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/index.html">
+                    <span class="icon"><img src="../img/home_553416.png" alt="" width="30"></span>
+                    <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/roles.html">
+                    <span class="icon"><img src="../img/cog_8947770.png" alt="" width="30"></span>
+                    <span class="title">Roles</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/tableUs.html">
+                    <span class="icon"><img src="../img/circle_10110782.png" alt="" width="30"></span>
+                    <span class="title">Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="../img/bed_2905743.png" alt="" width="30"></span>
+                    <select name="" id="table-size">
+                    <span class="title"><a href="../html/habitacion.html"><option value="Habitaciones">Habitaciones</option></a></span>
+                    <span class="title"><option value="Habitaciones">Tipo Habitación</option></span>
+                </select>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/servicios.html">
+                    <span class="icon"><img src="../img/wine-bottle_763072.png" alt="" width="30"></span>
+                    <span class="title">Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/paquetes.html">
+                    <span class="icon"><img src="../img/gift_2349820.png" alt="" width="30"></span>
+                    <span class="title">Paquetes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/clientes.html">
+                    <span class="icon"><img src="../img/team_476863.png" alt="" width="30"></span>
+                    <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/reserva.html">
+                    <span class="icon"><img src="../img/reminder_7465733.png" alt="" width="30"></span>
+                    <span class="title">Reservas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/hospedaje.html">
+                    <span class="icon"><img src="../img/sleep_3113791.png" alt="" width="30"></span>
+                    <span class="title">Hospedaje</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="../img/logout_4212116.png" alt="" width="30"></span>
+                    <span class="title">Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <img src="../img/menu_4204600.png" alt="" width="20">
+                </div>
+                <div class="search">
+                    <label>
+                        <ul class="navbar-list">
+                            <li><a href="#">Cerrar sesión</a></li>
+                            <li><a href="#">Mi perfil</a></li>
+                        </ul>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="../img/perfil person.png" width="110">
+                </div>
+            </div>
+            <!---tabla---->
+
+    <div class="container100">
+        <header>
+            <div>
+                <h2><img src="img/regalo.png" alt="" width="40" height="40">Paquetes</h2>
+            </div><br>
+            <div class="filterEntries">
+                <div class="entries">
+                    <div class="addMemberBtn">
+                        Entradas <select name="" id="table-size">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                        </select><br><br>
+                        <p>Nuevo Paquete <button><img src="img/agregar-usuario.png" alt="" width="40" height="40"></button></p>
+                    </div>
+                </div>
+                
+                <div class="filter">
+                    <label for="search">Buscar</label>
+                    <input type="search" name="" id="search" placeholder="Buscar Paquetes">
+                </div>
+            </div>
+        </header><br>
+
+        <table>
+
+            <thead>
+                <tr class="heading">
+                    <th>IdPaquete </th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Estado</th>
+                    <th>Operaciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td class="empty"></td></tr>
+                    <tr>
+                    <td>01</td>
+                    <td>Paquete Amor</td>
+                    <td>Celebración de Aniversario</td>
+                    <td>340000</td>
+                    <td>Activo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table> 
+    </div>
+
+    <script src="../Js/menu.js"></script>
+    <script src="../Js/chart.js"></script>
+</body>
+</html>

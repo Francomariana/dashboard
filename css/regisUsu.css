@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #FCF5ED;
+}
+
+.container200{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 3px 3px 20px black;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.titulo{
+    text-align:center;
+    padding: 15px;
+}
+
+.filter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+.correo, .contraseña{
+    display: flex;
+    flex-direction: column;
+}
+
+.container200 .filter input, .addMemberBtn select{
+    padding: 7px 10px;
+    border: 1px solid #EBE4D1;
+    color: black;
+    background: #B4B4B3;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.filter label{
+    color: black;
+    margin-right: 5px;
+}
+
+.container200 .filter input, .addMemberBtn select{
+    padding: 10px 10px;
+}
+
+.container200 .filter input:focus{
+    border-color: #44bb62;
+}
+
+.addMemberBtn select:hover{
+    background: #EBE4D1;
+}
+
+.btn{
+    text-align: right;
+}
+
+.bt{
+    background: #44bb62;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.botn{
+    background: #B4B4B3;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.btn .bt:hover{
+background: #A6FF96;
+}
+
+.btn .botn:hover{
+    background: #EBE4D1;
+}
+

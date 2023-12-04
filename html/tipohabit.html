@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="tipo.css">
+    <link rel="stylesheet" href="table.css">
+    <title>Tipo de habitaciones</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h2><img src="img/habitacion.png" alt="" width="40" height="40">Tipo de habitaciones</h2><br>
+        </header><br>
+
+        <table>
+
+            <thead>
+                <tr class="heading">
+                    <th>IdTipoHabit</th>
+                    <th>Descripció</th>
+                    <th>No. Pers.</th>
+                    <th>Precio</th>
+                    <th>Estado</th>
+                    <th>Operaciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td class="empty"></td></tr>
+                    <tr>
+                    <td>01</td>
+                    <td>Simple</td>
+                    <td>1</td>
+                    <td>100.000</td>
+                    <td>Disponible</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>02</td>
+                    <td>Doble</td>
+                    <td>2</td>
+                    <td>200.000</td>
+                    <td>No Disponible</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>03</td>
+                    <td>Cuadruple</td>
+                    <td>4</td>
+                    <td>400.000</td>
+                    <td>Disponible</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>05</td>
+                    <td>Octal</td>
+                    <td>8</td>
+                    <td>800.000</td>
+                    <td>Disponible</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table> 
+
+        <footer>
+            <span class="entries">Mostras de 1 a 50 entradas</span>
+            <div class="pagination">
+                <button>Anterior</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>Pasar</button>
+            </div>
+        </footer>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <h2 class="titulo">Nuevo/Editar</h2>
+            <div class="filter">
+                <div class="correo">
+                    <label for="">Nombre</label>
+                    <input type="text" required>
+                </div>
+                <div class="correo">
+                    <label for="">Precio</label>
+                    <input type="number" required>
+                </div>
+                <div class="contraseña">
+                    <label for="">No.personas</label>
+                    <input type="number" required>
+                </div>
+                <div class="addMemberBtn">
+                    Estado <select name="" id="table-size">
+                        <option value="Admin">Activos</option>
+                        <option value="Cliente">Inactivo</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <button class="botn">Cancelar</button>
+                    <button class="bt">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </div> 
+    <script src="table.js"></script>
+
+</body>
+</html>

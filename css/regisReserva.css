@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #FCF5ED;
+}
+
+.container{
+    width: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 15px black;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.di1{
+    float: right;
+    width: 500px;
+    padding: 10px;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.di2{
+    float: right;
+    width: 500px;
+    padding: 10px;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.titulo{
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    left: 620px;
+    bottom: 600px;
+}
+
+.filter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+.register{
+    text-align: right;
+}
+
+.contraseña, .addMemberBtn1{
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+
+.nombres, .apellidos, .direccion, .valor{
+    display: flex;
+    justify-content: center;
+}
+
+.documento, .correo, .telefono, .addMemberBtn{
+    display: flex;
+    justify-content: right;
+}
+
+.container .filter input, .addMemberBtn1 select, .addMemberBtn select{
+    padding: 7px 10px;
+    border: 1px solid #EBE4D1;
+    color: black;
+    background: #B4B4B3;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.filter label{
+    color: black;
+    margin-right: 5px;
+}
+
+.container .filter input, .addMemberBtn select, .addMemberBtn1 select{
+    padding: 10px 10px;
+}
+
+.container .filter input:focus{
+    border-color: #44bb62;
+}
+
+.addMemberBtn1 select:hover{
+    background: #EBE4D1;
+}
+
+.addMemberBtn select:hover{
+    background: #EBE4D1;
+}
+
+.btn{
+    text-align: right;
+}
+
+.bt{
+    background: #44bb62;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.botn{
+    background: #B4B4B3;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.btn .bt:hover{
+background: #A6FF96;
+}
+
+.btn .botn:hover{
+    background: #EBE4D1;
+}

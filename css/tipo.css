@@ -1,0 +1,87 @@
+.filter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.contraseña, .correo, .addMemberBtn{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.container .filter input, .addMemberBtn1 select, .addMemberBtn select{
+    padding: 7px 10px;
+    border: 1px solid #EBE4D1;
+    color: black;
+    background: #B4B4B3;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.filter label{
+    color: black;
+    margin-right: 5px;
+}
+
+.container .filter input, .addMemberBtn select, .addMemberBtn1 select{
+    padding: 10px 10px;
+}
+
+.container .filter input:focus{
+    border-color: #44bb62;
+}
+
+.addMemberBtn1 select:hover{
+    background: #EBE4D1;
+}
+
+.addMemberBtn select:hover{
+    background: #EBE4D1;
+}
+
+.btn{
+    text-align: right;
+}
+
+.bt{
+    background: #44bb62;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.botn{
+    background: #B4B4B3;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.btn .bt:hover{
+background: #A6FF96;
+}
+
+.btn .botn:hover{
+    background: #EBE4D1;
+}

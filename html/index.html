@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminDashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="" alt=""></span>
+                    <span class="title">Oasis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/index.html">
+                    <span class="icon"><img src="../img/home_553416.png" alt="" width="30"></span>
+                    <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/roles.html">
+                    <span class="icon"><img src="../img/cog_8947770.png" alt="" width="30"></span>
+                    <span class="title">Roles</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/tableUs.html">
+                    <span class="icon"><img src="../img/circle_10110782.png" alt="" width="30"></span>
+                    <span class="title">Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="../img/bed_2905743.png" alt="" width="30"></span>
+                    <select name="" id="table-size">
+                        <a href="#"><span class="title"><option value="Habitaciones">Tipo Habitación</option></span></a>
+                    <span class="title"><option value="Habitaciones">Tipo Habitación</option></span>
+                </select>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/servicios.html">
+                    <span class="icon"><img src="../img/wine-bottle_763072.png" alt="" width="30"></span>
+                    <span class="title">Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/paquetes.html">
+                    <span class="icon"><img src="../img/gift_2349820.png" alt="" width="30"></span>
+                    <span class="title">Paquetes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/clientes.html">
+                    <span class="icon"><img src="../img/team_476863.png" alt="" width="30"></span>
+                    <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/reserva.html">
+                    <span class="icon"><img src="../img/reminder_7465733.png" alt="" width="30"></span>
+                    <span class="title">Reservas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/hospedaje.html">
+                    <span class="icon"><img src="../img/sleep_3113791.png" alt="" width="30"></span>
+                    <span class="title">Hospedaje</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/Login.html">
+                    <span class="icon"><img src="../img/logout_4212116.png" alt="" width="30"></span>
+                    <span class="title">Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!----Perfil-->
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <img src="../img/menu_4204600.png" alt="" width="20">
+                </div>
+                <div class="search">
+                    <label>
+                        <ul class="navbar-list">
+                            <li><a href="#">Cerrar sesión</a></li>
+                            <li><a href="#">Mi perfil</a></li>
+                        </ul>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="../img/perfil person.png" width="110">
+                </div>
+            </div>
+            
+            <!--Cartas-->
+
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Vistas Diarias</div>
+                    </div>
+                    <div class="iconBx">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Ventas</div>
+                    </div>
+                    <div class="iconBx">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">284</div>
+                        <div class="cardName">Comentarios</div>
+                    </div>
+                    <div class="iconBx">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">7,842</div>
+                        <div class="cardName">Ganancias</div>
+                    </div>
+                    <div class="iconBx">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--Gráficas-->
+
+            <div class="graphBox">
+                <div class="box">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="box">
+                    <canvas id="earning"></canvas>
+                </div>
+            </div>
+
+            <!--Lista ordenada de detalles-->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Ordenes Recientes</h2>
+                        <a href="#" class="btn">Ver Todo</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Nombre</td>
+                                <td>Precio</td>
+                                <td>Pago</td>
+                                <td>Estado</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status pending">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status return">Entregado</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Pagó</td>
+                                <td><span class="status inprogress">Entregado</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            <!--Nueva tabla de los nuevos clientes-->
+
+            <div class="recentCustomers">
+                <div class="cardHeader">
+                    <h2>Nuevos Clientes</h2>                    
+                </div>
+                <table>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/fotoperfil.webp" alt=""></div></td>
+                        <td><h4>Jennifer Garcia<br><span>Francia</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Cristiano ronaldo.jpg" alt=""></div></td>
+                        <td><h4>Cristiano Ronaldo<br><span>Portugal</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Lionel Messi.jpg" alt=""></div></td>
+                        <td><h4>Lionel Messi<br><span>Argentina</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Luis Diaz.webp" alt=""></div></td>
+                        <td><h4>Luis Díaz<br><span>Colombia</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/bellingham.png" alt=""></div></td>
+                        <td><h4>Bellingham<br><span>Reino Unido</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Mancasual1.jpg" alt=""></div></td>
+                        <td><h4>Carlos Mejía<br><span>Brasil</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Chica parís.jpg" alt=""></div></td>
+                        <td><h4>Eliza Martínez<br><span>París</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Chica casual2.webp" alt=""></div></td>
+                        <td><h4>Caty Jimenez<br><span>Canadá</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Chica casual3.webp" alt=""></div></td>
+                        <td><h4>Angela Romero<br><span>Colombia</span></h4></td>
+                    </tr>
+                    <tr>
+                        <td width="60px"><div class="imgBx"><img src="../img/Mancasual2.jpg" alt=""></div></td>
+                        <td><h4>Juan Camilo<br><span>Colombia</span></h4></td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="../Js/script.js"></script>
+    <script src="../Js/menu.js"></script>
+    <script src="../Js/chart.js"></script>
+</body>
+</html>

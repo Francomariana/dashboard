@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo"></h2>
+        <nav class="navigation">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <button class="btnLogin-popup"></button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        
+        <div class="form-box login">
+            <h2>¡Bienvenido¡</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Correo Electrónico</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordar</label>
+                    <a href="verifi.html">¿olvidaste tú contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Ingresar</button>
+                <div class="login-register">
+                    <p>¿Aún no tienes cuenta?<a href="#" class="register-link">Registro</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Crear Cuenta</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nombre Completo</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Correo Electrónico</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Crear Contraseña</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Confirmar Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Acepta términos y condiciones</label>
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+                <div class="login-register">
+                    <p>¿Ya tienes una cuenta?<a href="#" class="login-link">Iniciar sesión</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="../Js/verifi.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

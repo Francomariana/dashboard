@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Clientes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="" alt=""></span>
+                    <span class="title">Oasis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/index.html">
+                    <span class="icon"><img src="../img/home_553416.png" alt="" width="30"></span>
+                    <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/roles.html">
+                    <span class="icon"><img src="../img/cog_8947770.png" alt="" width="30"></span>
+                    <span class="title">Roles</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/tableUs.html">
+                    <span class="icon"><img src="../img/circle_10110782.png" alt="" width="30"></span>
+                    <span class="title">Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/habitacion.html">
+                    <span class="icon"><img src="../img/bed_2905743.png" alt="" width="30"></span>
+                    <select name="" id="table-size">
+                        <a href="../html/tipohabit.html"><span class="title"><option value="Habitaciones">Tipo Habitación</option></span></a>
+                    <span class="title"><option value="Habitaciones">Tipo Habitación</option></span>
+                </select>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/servicios.html">
+                    <span class="icon"><img src="../img/wine-bottle_763072.png" alt="" width="30"></span>
+                    <span class="title">Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/paquetes.html">
+                    <span class="icon"><img src="../img/gift_2349820.png" alt="" width="30"></span>
+                    <span class="title">Paquetes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/clientes.html">
+                    <span class="icon"><img src="../img/team_476863.png" alt="" width="30"></span>
+                    <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/reserva.html">
+                    <span class="icon"><img src="../img/reminder_7465733.png" alt="" width="30"></span>
+                    <span class="title">Reservas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/hospedaje.html">
+                    <span class="icon"><img src="../img/sleep_3113791.png" alt="" width="30"></span>
+                    <span class="title">Hospedaje</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="../img/logout_4212116.png" alt="" width="30"></span>
+                    <span class="title">Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!----Perfil-->
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <img src="../img/menu_4204600.png" alt="" width="20">
+                </div>
+                <div class="search">
+                    <label>
+                        <ul class="navbar-list">
+                            <li><a href="#">Cerrar sesión</a></li>
+                            <li><a href="#">Mi perfil</a></li>
+                        </ul>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="../img/perfil person.png" width="110">
+                </div>
+            </div>
+
+    <div class="container100">
+        <header>
+            <div>
+                <h2><img src="img/satisfaccion-del-consumidor.png" alt="" width="40" height="40">Clientes</h2>
+            </div><br>
+            <div class="filterEntries">
+                <div class="entries">
+                    <div class="addMemberBtn">
+                        Entradas <select name="" id="table-size">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                        </select><br><br>
+                        <p>Nuevo Cliente <button><a href="regisClien.html"><img src="img/agregar-usuario.png" alt="" width="40" height="40"></a></button></p>
+                    </div>
+                </div>
+                
+                <div class="filter">
+                    <label for="search">Buscar</label>
+                    <input type="search" name="" id="search" placeholder="Buscar Clientes">
+                </div>
+            </div>
+        </header><br>
+
+        <table>
+
+            <thead>
+                <tr class="heading">
+                    <th>IdCliente </th>
+                    <th>Foto</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Documento</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                    <th>Estado</th>
+                    <th>Operaciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td class="empty"></td></tr>
+                    <tr>
+                    <td>01</td>
+                    <td><img src="img/marc.jpeg" alt="" width="40" height="40"></td>
+                    <td>Marc Anthony</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>anthony@example</td>
+                    <td>5002345</td>
+                    <td>Activo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>02</td>
+                    <td><img src="img/arcangelprr.webp" alt="" width="40" height="40"></td>
+                    <td>Austin Santos</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>santos@example.com</td>
+                    <td>5002345</td>
+                    <td>Activo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>03</td>
+                    <td><img src="img/noel.jpeg" alt="" width="40" height="40"></td>
+                    <td>Noel Schajris</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>schajris@example.com</td>
+                    <td>5002345</td>
+                    <td>Inactivo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>04</td>
+                    <td><img src="img/donomar.jpg" alt="" width="40" height="40"></td>
+                    <td>William Omar</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>omar@example.com</td>
+                    <td>5002345</td>
+                    <td>Activo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>05</td>
+                    <td><img src="img/puth.jpeg" alt="" width="40" height="40"></td>
+                    <td>Charlie Puth</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>pharlie@example.com</td>
+                    <td>5002345</td>
+                    <td>Activo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>06</td>
+                    <td><img src="img/ANNY.webp" alt="" width="40" height="40"></td>
+                    <td>Anny Hathaway</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>Hathaway@example.com</td>
+                    <td>5002345</td>
+                    <td>Inactivo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>07</td>
+                    <td><img src="img/elizabetholsen.jpg" alt="" width="40" height="40"></td>
+                    <td>Elizabeth Olsen</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>olsen@example.com</td>
+                    <td>5002345</td>
+                    <td>Activo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>08</td>
+                    <td><img src="img/laroca.webp" alt="" width="40" height="40"></td>
+                    <td>Dwayne Johnson</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>johnson@example.com</td>
+                    <td>5002345</td>
+                    <td>Inactivo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>09</td>
+                    <td><img src="img/jhonnyd.jpg" alt="" width="40" height="40"></td>
+                    <td>Jhonny Depp</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>Depp@example.com</td>
+                    <td>5002345</td>
+                    <td>Inactivo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td><img src="img/will-smith-especial.jpg" alt="" width="40" height="40"></td>
+                    <td>Will Smith</td>
+                    <td>CC</td>
+                    <td>123456</td>
+                    <td>smith@example.com</td>
+                    <td>5002345</td>
+                    <td>Inactivo</td>
+                    <td>
+                        <button><a href=""><img src="img/editar-codigo.png" alt=""  width="30" height="30"></a></button>
+                        <button><a href=""><img src="img/vista.png" alt=""  width="30" height="30"></a></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table> 
+
+        <footer>
+            <span class="entries">Mostras de 1 a 50 entradas</span>
+            <div class="pagination">
+                <button>Anterior</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>Pasar</button>
+            </div>
+        </footer>
+    </div>
+    <script src="../Js/table.js"></script>
+    <script src="../Js/script.js"></script>
+    <script src="../Js/menu.js"></script>
+</body>
+</html>

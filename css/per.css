@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #FCF5ED;
+}
+
+.container-2 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 .btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-per{
+    padding: 20px;
+    box-shadow: 3px 3px 20px black;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.container-2{
+    padding: 20px;
+    box-shadow: 3px 3px 20px black;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 50px;
+} 
+
+.container-botton{
+    padding: 20px;
+    box-shadow: 3px 3px 20px black;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.container-3{
+    padding: 20px;
+    box-shadow: 3px 3px 20px black;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-per .filterPer{
+    color: black;
+}
+
+.perRol .filterPer input, .innactive .desc select{
+    padding: 7px 10px;
+    border: 1px solid #EBE4D1;
+    color: black;
+    background: #B4B4B3;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.filterPer label{
+    color: black;
+    margin-right: 5px;
+}
+
+.perRol .filterPer input, .innactive .desc select{
+    padding: 5px 10px;
+}
+
+.perRol .filterPer input:focus{
+    border-color: #44bb62;
+}
+
+.innactive .desc select:hover{
+    background: #EBE4D1;
+}
+
+.container-2 .container-botton, .boton {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-botton{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+/*Botones*/
+
+.boton{
+    margin: 10px;
+}
+
+.lbl-switch{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch:checked~.lbl-switch{
+    background: green;
+}
+.lbl-switch::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch:checked~.lbl-switch::after{
+    left: 28px;
+}
+
+#btn-switch{
+    display: none;
+}
+
+.boton-2{
+    margin: 10px;
+}
+
+.lbl-switch-2{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-2:checked~.lbl-switch-2{
+    background: green;
+}
+
+.lbl-switch-2::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-2:checked~.lbl-switch-2::after{
+    left: 28px;
+}
+
+#btn-switch-2{
+    display: none;
+}
+
+.boton-3{
+    margin: 10px;
+}
+
+.lbl-switch-3{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-3:checked~.lbl-switch-3{
+    background: green;
+}
+
+.lbl-switch-3::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-3:checked~.lbl-switch-3::after{
+    left: 28px;
+}
+
+#btn-switch-3{
+    display: none;
+}
+
+.boton-4{
+    margin: 10px;
+}
+
+.lbl-switch-4{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-4:checked~.lbl-switch-4{
+    background: green;
+}
+
+.lbl-switch-4::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-4:checked~.lbl-switch-4::after{
+    left: 28px;
+}
+
+#btn-switch-4{
+    display: none;
+}
+
+.boton-5{
+    margin: 10px;
+}
+
+.lbl-switch-5{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-5:checked~.lbl-switch-5{
+    background: green;
+}
+
+.lbl-switch-5::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-5:checked~.lbl-switch-5::after{
+    left: 28px;
+}
+
+#btn-switch-5{
+    display: none;
+}
+
+.boton-6{
+    margin: 10px;
+}
+
+.lbl-switch-6{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-6:checked~.lbl-switch-6{
+    background: green;
+}
+
+.lbl-switch-6::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-6:checked~.lbl-switch-6::after{
+    left: 28px;
+}
+
+#btn-switch-6{
+    display: none;
+}
+
+.boton-7{
+    margin: 10px;
+}
+
+.lbl-switch-7{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-7:checked~.lbl-switch-7{
+    background: green;
+}
+
+.lbl-switch-7::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-7:checked~.lbl-switch-7::after{
+    left: 28px;
+}
+
+#btn-switch-7{
+    display: none;
+}
+
+.boton-8{
+    margin: 10px;
+}
+
+.lbl-switch-8{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-8:checked~.lbl-switch-8{
+    background: green;
+}
+
+.lbl-switch-8::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-8:checked~.lbl-switch-8::after{
+    left: 28px;
+}
+
+#btn-switch-8{
+    display: none;
+}
+
+.boton-9{
+    margin: 10px;
+}
+
+.lbl-switch-9{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch-9:checked~.lbl-switch-9{
+    background: green;
+}
+
+.lbl-switch-9::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#btn-switch-9:checked~.lbl-switch-9::after{
+    left: 28px;
+}
+
+#btn-switch-9{
+    display: none;
+}

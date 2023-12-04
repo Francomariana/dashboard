@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistroClientes</title>
+    <link rel="stylesheet" href="../css/regisClien.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="" alt=""></span>
+                    <span class="title">Oasis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/index.html">
+                    <span class="icon"><img src="../img/home_553416.png" alt="" width="30"></span>
+                    <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/roles.html">
+                    <span class="icon"><img src="../img/cog_8947770.png" alt="" width="30"></span>
+                    <span class="title">Roles</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/tableUs.html">
+                    <span class="icon"><img src="../img/circle_10110782.png" alt="" width="30"></span>
+                    <span class="title">Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/habitacion.html">
+                    <span class="icon"><img src="../img/bed_2905743.png" alt="" width="30"></span>
+                    <select name="" id="table-size">
+                        <a href="../html/tipohabit.html"><span class="title"><option value="Habitaciones">Tipo Habitación</option></span></a>
+                    <span class="title"><option value="Habitaciones">Tipo Habitación</option></span>
+                </select>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/servicios.html">
+                    <span class="icon"><img src="../img/wine-bottle_763072.png" alt="" width="30"></span>
+                    <span class="title">Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/paquetes.html">
+                    <span class="icon"><img src="../img/gift_2349820.png" alt="" width="30"></span>
+                    <span class="title">Paquetes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/clientes.html">
+                    <span class="icon"><img src="../img/team_476863.png" alt="" width="30"></span>
+                    <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/reserva.html">
+                    <span class="icon"><img src="../img/reminder_7465733.png" alt="" width="30"></span>
+                    <span class="title">Reservas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/hospedaje.html">
+                    <span class="icon"><img src="../img/sleep_3113791.png" alt="" width="30"></span>
+                    <span class="title">Hospedaje</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><img src="../img/logout_4212116.png" alt="" width="30"></span>
+                    <span class="title">Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!----Perfil-->
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <img src="../img/menu_4204600.png" alt="" width="20">
+                </div>
+                <div class="search">
+                    <label>
+                        <ul class="navbar-list">
+                            <li><a href="#">Cerrar sesión</a></li>
+                            <li><a href="#">Mi perfil</a></li>
+                        </ul>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="../img/perfil person.png" width="110">
+                </div>
+            </div>
+
+    <div class="container300">
+        <form action="">
+            <div class="di2">
+                <h2 class="titulo">Registrar Cliente</h2>
+                <div class="filter">
+                    <div class="correo">
+                        <label for="">correo</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="correo">
+                        <label for="">Confirmación de correo</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="contraseña">
+                        <label for="">contraseña</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="contraseña">
+                        <label for="">Confirmación contraseña</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="btn">
+                        <button class="botn">Cancelar</button>
+                        <button class="bt">Guardar</button>
+                    </div>
+                </div>
+            </div> 
+            <div class="di1">
+                <div class="addMemberBtn">
+                    Tipo de documento <select name="" id="table-size">
+                        <option value="Cédula de ciudadania">Cédula de ciudadania</option>
+                        <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                        <option value="Cédula de Extranjería">Cédula de Extranjería</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <div class="documento">
+                        <label for="">Número de documento</label>
+                        <input type="number" required>
+                    </div>
+                    <div class="nombres">
+                        <label for="">Nombres</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="apellidos">
+                        <label for="">Apellidos</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="telefono">
+                        <label for="">Teléfono</label>
+                        <input type="number" required>
+                    </div>
+                    <div class="direccion">
+                        <label for="">Dirección</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="pais">
+                        <label for="">País</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="ciudad">
+                        <label for="">Ciudad</label>
+                        <input type="text" required>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="../Js/script.js"></script>
+    <script src="../Js/menu.js"></script>
+</body>
+</html>
